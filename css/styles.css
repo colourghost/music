@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+* {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: quicksand;
+  -webkit-tap-highlight-color: transparent;
+}
+::selection {
+  background: transparent;
+}
+body {
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(rgb(125, 24, 47), rgb(16, 2, 6));
+}
+.main-container {
+  position: relative;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* progress bar */
+
+.progress-container {
+  width: 84%;
+  height: 10px;
+  border-radius: 0px 0px 3px 3px;
+  margin-left: 8%;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.progress-bar {
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 52%;
+  margin-top: 30px;
+}
+
+/* track details */
+
+.image {
+  display: block;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: 20%; 
+}
+.info-container {
+  margin-top: 30px;
+  margin-left: 20%;
+  cursor: default;
+}
+.title {
+  color: white;
+}
+.artist {
+  margin-top: 23px;
+  color: rgb(200,200,200);
+}
+.play-button {
+  display: inline-block;
+  width: 100px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border .3s;
+}
+@media (hover: hover) {
+  .play-button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+}
+.download-button {
+  display: inline-block;
+  width: 130px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  transition: border .3s;
+}
+@media (hover: hover) {
+  .download-button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* playlist */
+
+.playlist-track {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background .3s, color .3s;
+  color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+@media (hover: hover) {
+  .playlist-track:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+.active {
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.5);
+}
+.playlist-track-title {
+  margin-left: 20px;
+  color: white;
+}
+.playlist-track-length {
+  margin-left: auto;
+  color: white;
+}
+
+/* social media links */
+
+.logo-container {
+  position: absolute;
+  bottom: 0px;
+  right: 8%;
+  cursor: default;
+}
+.logo-link {
+  margin-left: 15px;
+}
+.logo-icon {
+  font-size: 37px;
+  color: rgba(255, 255, 255, 0.2);
+  transition: color .3s;
+}
+@media (hover: hover) {
+  .logo-icon:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* RWD */
+
+@media (max-width: 1000px) {
+  .progress-container {
+    width: 100%;
+    height: 5vw;
+    max-height: 20px;
+    border-radius: 0px;
+    margin-left: 0px;
+  }
+  .grid-container {
+    grid-template-columns: 100%;
+    margin-top: 5vw;
+  }
+  .image {
+    width: 90%;
+    max-width: 500px;
+    margin-left: 5%; 
+  }
+  .info-container {
+    margin-left: 5%;
+  }
+  .playlist-container {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  .logo-container {
+    position: static;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 5%;
+  }
+  .logo-link {
+    margin-left: 12px;
+  }
+  .logo-icon {
+    font-size: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .image {
+    max-width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .playlist-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .playlist-track {
+    border-radius: 0px;
+  }
+  .logo-container {
+    margin-top: 25px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .playlist-track-length {
+    display: none;
+  }
+  .logo-container {
+    margin-top: 15px;
+    margin-right: 5%;
+  }
+}
