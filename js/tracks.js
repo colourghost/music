@@ -4,7 +4,7 @@ export const tracks = [
     artist: 'color ghost',
     length: '37:39',
     image: 'images/fiji.jpg',
-    path: 'https://cvws.icloud-content.com/B/AdcVW1QFG-d_2Yab67kVa2wd5IrvAYzpQWEfAh8WB9IgwhOD6o5n3ibt/magic-of-the-mind.mp3?o=AmWgymKKwS9p9IYPmVa2X7NAVq177-jHN4SODlUDVOwx&v=1&x=3&a=CAog19q9mplaDkKjDxNA6w4ayaM6_gKISNkfDNzFOeHG_YwSbxD31q7Y1DAY97OK2tQwIgEAUgQd5IrvWgRn3ibtaicZLKlcpHPYwRuykEZ8r11T8Cfr1iX-727Lq3eZSseKK3hxLQBYnyZyJzIRrlUcw1eSsY2FDwsI7rPlB4-_F2dxu4w79VdM_8mJ9tbPMvwK7Q&e=1672004934&fl=&r=29daf8fe-b4bd-4100-80be-dec165c31bd6-1&k=i9kkhRfDXCG1EJW9EGx5Zw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=32&s=t1zsZgr_d-m4XHji0rJuO8wrZng&cd=i'
+    path: 'https://rlfayw.bn.files.1drv.com/y4mtqrVIMWZk9COo4VS8mir1--f1VGCTT1ad92yQfXt6vBOYVkIRLdxoKinbUM5vdz2qpko50V5bl02IbF551YoDfZa2dr8RMRbBIQHZEMx1lwedVMIl-o0iWVgD6ly5Zxc4ndwP_9TfZ749xzOxW2cfyz9qdudbFYJ0b8X6aLJjR3G18gN36S5Sa9dkJsmhmxTPJDQdmPl9WfIgEvIXkV21w'
   },
   {
     title: 'The Human Soul',
