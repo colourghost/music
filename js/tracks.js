@@ -4,7 +4,7 @@ export const tracks = [
     artist: 'color ghost',
     length: '37:39',
     image: 'images/fiji.jpg',
-    path: 'https://rlfayw.bn.files.1drv.com/y4mtqrVIMWZk9COo4VS8mir1--f1VGCTT1ad92yQfXt6vBOYVkIRLdxoKinbUM5vdz2qpko50V5bl02IbF551YoDfZa2dr8RMRbBIQHZEMx1lwedVMIl-o0iWVgD6ly5Zxc4ndwP_9TfZ749xzOxW2cfyz9qdudbFYJ0b8X6aLJjR3G18gN36S5Sa9dkJsmhmxTPJDQdmPl9WfIgEvIXkV21w'
+    path: 'https://rlfayw.bn.files.1drv.com/y4mF-4BMgaX_TaUUMqSucigRfBaXcR0xiXT7qdVInYU6PEFQPz0H0naGLsciyGBv9SICKlSehCB3CSKHqc-cbRiAOmU2ROqCOF6ccqZ6gf3WRrCygL4np02Y5ITYI1tQMBFxixmO23ybeQsjMKHk7dSFwsvLGTZKKnF1-cYE40YISUkUTZb05eJMaCTDddemc14mRQbHjN0afsG1600kvTMsg'
   },
   {
     title: 'The Human Soul',
