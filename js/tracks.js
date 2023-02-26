@@ -4,7 +4,7 @@ export const tracks = [
     artist: 'color ghost',
     length: '37:39',
     image: 'images/fiji.jpg',
-    path: 'https://rlfayw.bn.files.1drv.com/y4mF-4BMgaX_TaUUMqSucigRfBaXcR0xiXT7qdVInYU6PEFQPz0H0naGLsciyGBv9SICKlSehCB3CSKHqc-cbRiAOmU2ROqCOF6ccqZ6gf3WRrCygL4np02Y5ITYI1tQMBFxixmO23ybeQsjMKHk7dSFwsvLGTZKKnF1-cYE40YISUkUTZb05eJMaCTDddemc14mRQbHjN0afsG1600kvTMsg'
+    path: 'https://p-def8.pcloud.com/cfZHQAHQlZbSpCuiZGIh27ZZbiYpo7ZlXZZ6AzZZf3zn5ZERZkkZ6VZNFZszZnzZDpZXJZgLZtzZvkZ0pZQFZhLZUsoMGrTv5Kbtc6SgDDbGkSMN7StX/magic-of-the-mind.mp3'
   },
   {
     title: 'The Human Soul',
