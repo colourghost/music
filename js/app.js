@@ -7,7 +7,7 @@ const title = document.querySelector('.title')
 const artist = document.querySelector('.artist')
 const playButton = document.querySelector('.play-button')
 const playlistContainer = document.querySelector('.playlist-container')
-const currentTrack = new Audio('https://p-def8.pcloud.com/cfZHQAHQlZbSpCuiZGIh27ZZbiYpo7ZlXZZ6AzZZf3zn5ZERZkkZ6VZNFZszZnzZDpZXJZgLZtzZvkZ0pZQFZhLZUsoMGrTv5Kbtc6SgDDbGkSMN7StX/magic-of-the-mind.mp3')
+const currentTrack = new Audio('https://colorghost.app/magic-of-the-mind.mp3')
 
 let currentIndex = 0
 
