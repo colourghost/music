@@ -17,8 +17,7 @@ body {
 .main-container {
   position: relative;
   max-width: 1366px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* progress bar */
