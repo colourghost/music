@@ -46,6 +46,7 @@ body {
 .image {
   display: block;
   width: 70%;
+  height: auto;
   border-radius: 10px;
   margin-left: 20%;
 }
