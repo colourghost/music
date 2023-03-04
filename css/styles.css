@@ -98,7 +98,7 @@ body {
 
 .logo-container {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 8%;
   cursor: default;
 }
