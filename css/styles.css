@@ -96,13 +96,12 @@ body {
   color: rgb(240, 240, 240);
 }
 
-/* social media icons */
+/* icons */
 .icon-container {
   position: absolute;
   bottom: 0;
   right: 0;
   display: flex;
-  justify-content: flex-end;
   column-gap: 18px;
   cursor: default;
 }
@@ -161,10 +160,11 @@ body {
   }
   .icon-container {
     position: static;
-    column-gap: 4vw;
-    padding: 0 4vw 4vw 0;
+    justify-content: center;
+    column-gap: 5vw;
+    padding: 10vw 0 4vw 0;
   }
   .fa-brands {
-    font-size: 10vw;
+    font-size: 9vw;
   }
 }
