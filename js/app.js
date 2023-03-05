@@ -16,7 +16,7 @@ const render = _ => {
   tracks.forEach((elem, i) => {
     markup +=
      `<div class="playlist-track ${i === currentIndex ? 'active' : ''}">
-        <span class="fa ${i === currentIndex && !currentTrack.paused ? 'fa-pause' : 'fa-play'}"></span>
+        <span class="fa-solid ${i === currentIndex && !currentTrack.paused ? 'fa-pause' : 'fa-play'}"></span>
         <span class="playlist-track-title">${elem.title}</span>
         <span class="playlist-track-length">${elem.length}</span>
       </div>`
