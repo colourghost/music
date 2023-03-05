@@ -15,18 +15,18 @@ const render = _ => {
   title.innerText = tracks[currentIndex].title
   tracks.forEach((elem, i) => {
     markup +=
-     `<div class="playlist-track ${i === currentIndex ? 'active' : ''}">
+     `<div class="track ${i === currentIndex ? 'active' : ''}">
         <span class="fa-solid ${i === currentIndex && !currentTrack.paused ? 'fa-pause' : 'fa-play'}"></span>
-        <span class="playlist-track-title">${elem.title}</span>
-        <span class="playlist-track-length">${elem.length}</span>
+        <span class="track-title">${elem.title}</span>
+        <span class="track-length">${elem.length}</span>
       </div>`
   })
   playlistContainer.innerHTML = markup
-  addTrackListeners()
+  addTrackListener()
 }
 
-const addTrackListeners = _ => {
-  document.querySelectorAll('.playlist-track').forEach((elem, i) => {
+const addTrackListener = _ => {
+  document.querySelectorAll('.track').forEach((elem, i) => {
     elem.addEventListener('click', _ => {
       if (i === currentIndex) {
         if (currentTrack.paused) {
@@ -57,8 +57,7 @@ const addListeners = _ => {
   currentTrack.addEventListener('ended', _ => {
     progressBar.style.width = 0
     if (tracks[currentIndex + 1]) {
-      currentIndex++
-      currentTrack.src = tracks[currentIndex].url
+      currentTrack.src = tracks[++currentIndex].url
       currentTrack.play()
     }
     else {
