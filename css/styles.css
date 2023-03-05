@@ -55,6 +55,10 @@ body {
 }
 .title {
   padding-top: 20px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .artist {
   padding-top: 3px;
@@ -136,6 +140,7 @@ body {
   }
   .title {
     padding-top: 4vw;
+    font-size: 6vw;
   }
   .artist {
     padding-top: 1vw;
