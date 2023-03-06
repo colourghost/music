@@ -15,7 +15,7 @@ const render = _ => {
   title.innerText = tracks[currentIndex].title
   tracks.forEach((elem, i) => {
     markup +=
-     `<div class="track ${i === currentIndex ? 'active' : ''}">
+     `<div class="track${i === currentIndex ? ' active' : ''}">
         <span class="fa-solid ${i === currentIndex && !currentTrack.paused ? 'fa-pause' : 'fa-play'}"></span>
         <span class="track-title">${elem.title}</span>
         <span class="track-length">${elem.length}</span>
