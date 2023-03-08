@@ -14,7 +14,6 @@ body {
   min-height: 100vh;
   height: auto;
   font-family: 'Quicksand';
-  color: rgb(240, 240, 240);
   background: linear-gradient(rgb(125, 24, 47), rgb(16, 2, 6));
 }
 .grid-container {
@@ -52,10 +51,11 @@ body {
   width: 100%;
   height: auto;
   border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
 }
 .title {
   padding-top: 20px;
-  font-weight: bold;
+  color: rgb(230, 230, 230);
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -74,7 +74,7 @@ body {
   align-items: center;
   padding: 15px 18px;
   border-radius: 8px;
-  transition: background .3s, color .3s;
+  transition: background 0.3s, color 0.3s;
   color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
 }
@@ -93,11 +93,11 @@ body {
   font-size: 22px;
 }
 .track-title {
-  color: rgb(240, 240, 240);
+  color: rgb(230, 230, 230);
 }
 .track-length {
   margin-left: auto;
-  color: rgb(240, 240, 240);
+  color: rgb(230, 230, 230);
 }
 
 /* icons */
@@ -113,7 +113,7 @@ body {
   text-decoration: none;
   font-size: 40px;
   color: rgba(255, 255, 255, 0.2);
-  transition: color .3s;
+  transition: color 0.3s;
 }
 @media (hover: hover) {
   .fa-brands:hover {
