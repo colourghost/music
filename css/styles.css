@@ -136,7 +136,7 @@ body {
   .image-artist-container {
     width: 97vw;
     padding: 3vw 0 0 3vw;
-    font-size: 5.7vw;
+    font-size: 5.8vw;
   }
   .title {
     padding-top: 4vw;
@@ -153,7 +153,7 @@ body {
     border-radius: 0;
   }
   .fa-solid {
-    width: 8vw;
+    width: 7.5vw;
     font-size: 5.5vw;
   }
   .track-title {
