@@ -1,13 +1,13 @@
 export const tracks = [
   {
     title: 'Magic of the Mind',
-    length: '37:39',
+    length: '37:40',
     image: 'images/fiji.jpg',
     url: 'https://colorghost.app/magic-of-the-mind.mp3'
   },
   {
     title: 'The Human Soul',
-    length: '46:25',
+    length: '46:30',
     image: 'images/night-sky.jpg',
     url: 'https://colorghost.app/the-human-soul.mp3'
   },
@@ -25,13 +25,13 @@ export const tracks = [
   },
   {
     title: 'Journey of the Mind',
-    length: '32:21',
+    length: '35:15',
     image: 'images/jisoo.jpg',
     url: 'https://colorghost.app/journey-of-the-mind.mp3'
   },
   {
     title: 'Seize the Light',
-    length: '1:11:16',
+    length: '1:07:15',
     image: 'images/heart.jpg',
     url: 'https://colorghost.app/seize-the-light.mp3'
   }
