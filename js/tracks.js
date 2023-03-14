@@ -20,7 +20,7 @@ export const tracks = [
   {
     title: 'Another TWICE Mix to Feed Your Soul',
     length: '53:06',
-    image: 'images/predebut.jpg',
+    image: 'images/twice2.jpg',
     url: 'https://colorghost.app/another-twice-mix-to-feed-your-soul.mp3'
   },
   {
